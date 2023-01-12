@@ -1,0 +1,60 @@
+.gen {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.24, rgb(107, 198, 254)),
+    color-stop(0.62, rgb(17, 153, 171))
+  );
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+label,
+button {
+  font-family: "Caveat", cursive;
+}
+
+h2 {
+  margin: 0 auto;
+  font-size: 27px;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.form-label {
+  margin: 0 auto;
+  font-size: 21px;
+}
+button {
+  font-size: 20px;
+  width: 160px;
+  margin: 0 auto;
+  border: 3px rgba(0, 119, 255, 0.61) solid;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+button:hover {
+  border: 3px rgba(0, 68, 255, 0.568) solid;
+  background: rgba(186, 186, 186, 0.637);
+}
+button:focus {
+  border: 3px rgba(19, 19, 20, 0.989) solid;
+  background: rgb(255, 255, 255);
+}
+.checki {
+  font-size: 17px;
+  margin-top: 10px;
+  padding-left: 90px;
+}
+.password {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

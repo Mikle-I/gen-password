@@ -4,13 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Генератор паролей</title>
   </head>
   <body>
-    <input type="text" class="password" />
-    <label for="customRange1" class="form-label"></label>
-    <input type="range" class="form-range" id="customRange1" min="5" max="15" />
-    <button id="click">создать пароль</button>
+    <div class="gen">
+      <h2>Генератор паролей</h2>
+      <input type="text" class="password" />
+      <label for="customRange1" class="form-label"></label>
+      <input
+        type="range"
+        class="form-range"
+        id="customRange1"
+        min="5"
+        max="15"
+      />
+      <div class="checki">
+        <input type="checkbox" id="scales" name="scales" checked />
+        <label for="scales">Спец символы</label>
+      </div>
+      <div class="checki">
+        <input type="checkbox" id="Zagl" name="scales" checked />
+        <label for="Zagl">Заглавные буквы</label>
+      </div>
+
+      <button id="click">Cоздать пароль</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
